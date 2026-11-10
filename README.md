@@ -2,10 +2,9 @@
 
 Pootmaat helpt hondenbaasjes hondenweides in hun buurt ontdekken en speelafspraken maken.
 
-
-GitHub repository: https://github.com/CasTimm/my-mobile-app 
-Live PWA: https://joyful-kataifi-b8b4e7.netlify.app/
-
+| | Link |
+|---|---|
+| Live PWA | https://polite-stroopwafel-288eac.netlify.app |
 
 
 ## Projectidee
@@ -19,11 +18,11 @@ Live PWA: https://joyful-kataifi-b8b4e7.netlify.app/
 ## Functionaliteit
 
 - **Weideoverzicht:** weides zoeken en filteren.
-- **Weidedetail:** faciliteiten en informatie over de weide bekijken; een of meer eigen honden selecteren en inschrijven.
+- **Weidedetail:** faciliteiten en informatie over de weide bekijken; een of meer eigen honden selecteren en inschecken.
 - **Profiel:** honden lokaal aanmaken, bewerken en verwijderen.
 - **Database:** de weidelijst en weidedetails worden gelezen uit de gehoste Supabase-tabel `public.parks`.
 
-Hondenprofielen en inschrijvingen worden momenteel alleen lokaal in de browser bijgehouden; die worden niet naar Supabase verzonden. Er is nog geen login.
+Hondenprofielen en inschrijvingen worden momenteel alleen lokaal in de browser bijgehouden; die worden niet naar Supabase verzonden. Er is geen login.
 
 ## Lokaal starten
 
@@ -59,3 +58,4 @@ Open de URL die Expo in de terminal toont (standaard `http://localhost:8081`). A
 De Supabase-clientkey is in een webapp zichtbaar en hoort daarom alleen met Row Level Security-beleid voor de beoogde toegang gebruikt te worden. De app heeft publieke leest toegang nodig voor de weides. Zet **nooit** een `service_role`- of geheime key in de app, `.env.local`-voorbeeldwaarden, README of GitHub.
 
 `.env.local` bevat lokale instellingen en wordt door Git genegeerd. De docent kan via alleen de repository geen lokale `.env.local` gebruiken. Om de live databaseverbinding zonder eigen configuratie te beoordelen, moet de PWA naar een publieke HTTPS-host worden gedeployed met de twee `EXPO_PUBLIC_...` waarden als buildinstellingen. Die publishable clientwaarden zijn zichtbaar in de gebouwde website; RLS is dus noodzakelijk. Vervang bovenaan **Live PWA** door de echte HTTPS-URL zodra die gepubliceerd is.
+
