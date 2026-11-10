@@ -4,7 +4,7 @@ Pootmaat helpt hondenbaasjes hondenweides in hun buurt ontdekken en speelafsprak
 
 | | Link |
 |---|---|
-| Live PWA | https://polite-stroopwafel-288eac.netlify.app |
+| Live PWA | https://joyful-kataifi-b8b4e7.netlify.app/ |
 
 
 ## Projectidee
