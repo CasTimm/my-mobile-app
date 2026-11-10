@@ -5,6 +5,7 @@
   "scripts": {
     "start": "expo start",
     "web": "expo start --web",
+    "preview": "node scripts/serve-pwa.mjs",
     "tunnel": "expo start --tunnel",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
@@ -14,10 +15,12 @@
   "dependencies": {
     "@expo/metro-runtime": "~4.0.1",
     "@expo/vector-icons": "~14.0.4",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.0",
     "expo": "~52.0.46",
-    "expo-asset": "^56.0.15",
+    "expo-asset": "~11.0.5",
     "expo-constants": "~17.0.8",
-    "expo-font": "^56.0.5",
+    "expo-font": "~13.0.4",
     "expo-linking": "~7.0.5",
     "expo-router": "~4.0.17",
     "expo-status-bar": "~2.0.1",

@@ -19,9 +19,17 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/favicon.png"
+      "name": "Pootmaat",
+      "shortName": "Pootmaat",
+      "themeColor": "#28543d",
+      "backgroundColor": "#f8f8f3",
+      "display": "standalone"
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ],
     "experiments": {
       "typedRoutes": true
     }
